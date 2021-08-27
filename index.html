@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    <title>Mortgage Loan Calculator</title>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <table border="0" frame="box" cellpadding="15px" align="center" style="background-color:black; color:white;">
+     <thead>
+       <tr>
+         
+         <th colspan="2">Loan Calculator</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>Loan Amount:$</td>
+         <td>
+           <input type="number" id="loanAmount">
+         </td>
+      </tr>
+       <tr>
+         <td>Interest Rate:%</td>
+         <td>
+            <input type="number" id="interestRate">
+         </td>
+      </tr>
+       <tr>
+         <td>Months to Pay:</td>
+         <td>
+             <input type="number" id="monthstoPay">
+         </td>
+      </tr>
+    </tbody>
+     <tfoot>
+       <tr>
+         <td onclick="CalculateClick()">
+        Monthly Payment =
+        </td>
+         <td id="result">
+          
+         </td>
+      </tr>
+  </tfoot>
+    </table>
+      
+  
+  </body>
+</html>
